@@ -1,0 +1,67 @@
+NOME_DO_ELEMENTO {
+
+}
+
+/* h1 {
+    color: red;
+} 
+
+img {
+
+} */
+
+
+#ID_DO_ELEMENTO {
+
+}
+
+/* #titulo {
+    color: green;
+} */
+
+
+.CLASS_DO_ELEMENTO {
+
+}
+
+/* .texto {
+    color: red;
+} */
+
+
+ELEMENTO, OUTROELEMENTO {
+
+}
+
+/* #titulo {
+    color: blue;
+    font-size: 25px;
+}
+
+.texto {
+    color: blue;
+    font-size: 25px;
+} 
+
+#titulo,
+.texto {
+    color: blue;
+    font-size: 25px;
+}
+
+#titulo {
+    font-weight: normal;
+}
+
+.texto {
+    font-weight: bold;
+} */
+
+
+ELEMENTO OUTROELEMENTO {
+
+}
+
+/* ol li {
+    color: pink;
+} */
