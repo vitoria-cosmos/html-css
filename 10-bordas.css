@@ -1,30 +1,21 @@
-#titulo {
-    background-color: #F00;
+#p1 {
+    border-right: 5px groove #0000ff;
+}
 
-    /* RGB 
-    R = red = vermelho
-    G = green = verde 
-    B = blue = azul 
+#p2 {
+    background-color: #0000ff;
+    border-radius: 5px;
+}
 
-    ex: Preto 
-    R = 0%
-    G = 0%
-    B = 0%
+div {
+    background-color: #00ff00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+}
 
-    ex: Branco 
-    R = 100%
-    G = 100%
-    B = 100%
-
-    ex: Vermelho
-    R = 100%
-    G = 0%
-    B = 0% */
-
-    /* Hexadecimal 
-
-    2 = vermelho
-    2 = verde 
-    2 = azul  */
-
+img {
+    border: 5px solid red;
+    border-radius: 5px;
 }
