@@ -1,0 +1,30 @@
+#titulo {
+    background-color: #F00;
+
+    /* RGB 
+    R = red = vermelho
+    G = green = verde 
+    B = blue = azul 
+
+    ex: Preto 
+    R = 0%
+    G = 0%
+    B = 0%
+
+    ex: Branco 
+    R = 100%
+    G = 100%
+    B = 100%
+
+    ex: Vermelho
+    R = 100%
+    G = 0%
+    B = 0% */
+
+    /* Hexadecimal 
+
+    2 = vermelho
+    2 = verde 
+    2 = azul  */
+
+}
