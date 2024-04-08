@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 58px;
+    font-size: 17px;
+}
+
+p {
+    color: #0000ff;
+    font-size: 30px;
+    font-weight: bold;
+    /* font-family: Helvetica, Arial, Comic Sans Ms; */
+    font-family: Helvetica;
+    text-align: justify;
+    /* text-decoration: line-through; */
+}
+
+a {
+    /* text-decoration: none; */
+    /* text-decoration: line-through; */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
