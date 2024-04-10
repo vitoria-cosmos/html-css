@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Indie Flower';
+}
+
+table {
+    width: 600px;
+    /* border: 1px solid black; */
+}
+
+/* td, th {
+    border: 1px solid black;
+} */
+
+table thead {
+    background-color: #ccc;
+}
+
+table tbody {
+    background-color: rgb(223, 217, 217);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* tr:hover {
+    background-color: #eee;
+} */
+
+tbody tr:hover {
+    background-color: #eee;
+}
+
+tbody td {
+    border-bottom: 1px solid #000;
+}
