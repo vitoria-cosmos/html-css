@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de teste</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="30-label.css">
+</head>
+<body>
+    <h1>Página de teste</h1>
+
+    <h2>Área de cadastro</h2>
+
+    <form action="../aula14/paginas/login.html" method="GET">
+
+        <h2>Uso básico do label: </h2>
+        <label>Nome completo:</label><br>
+        <input type="text" name="name">
+        <button>Fazer cadastro</button>
+
+        <h2>Uso eficiente do label: </h2>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+
+        <h3>* Com checkbox</h3>
+        <input type="checkbox" id="teste">
+        <label for="teste">Eu declaro que li e aceito os termos de uso.</label>
+
+        <br><br>
+        <h3>* Duas formas de aplicar o label</h3>
+        <p> <strong>1 - Input dentro do label:</strong></p>
+
+        <label>
+            Nome completo: <br>
+            <input type="text" name="nome">
+        </label>
+        <br><br>
+
+        <p> <strong>2 - Utilizando checkbox dentro do label:</strong></p>
+        <label>
+            <input type="checkbox">
+            Eu declaro que li e aceito os termos de uso.
+        </label>
+        <button>Fazer cadastro</button>
+
+    
+
+    </form>
+
+    <h2>Área de login</h2>
+
+    
+</body>
+</html>
