@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="27-select.css">
+    <link rel="stylesheet" href="29-button.css">
 </head>
 <body>
     <h1>Página de teste</h1>
@@ -14,19 +14,15 @@
     <h2>Área de cadastro</h2>
 
     <form action="../aula14/paginas/login.html" method="GET">
-        <!-- <select name="order">
-            <option></option>
-            <option value="bestseller">Mais vendidos</option>
-            <option value="last" selected>Recentes</option>
-        </select> -->
 
-        <!-- Multipla escolha: -->
-        <select name="order" size="2" multiple>
-            <option></option>
-            <option value="bestseller">Mais vendidos</option>
-            <option value="last">Recentes</option>
-            <option value="lastone">Teste</option>
-        </select>
+        <textarea name="descricao"></textarea>
+
+        <h2>Textarea com estilos css inline:</h2>
+        <textarea name="descricao2" style="width: 400px; height: 200px;"></textarea>
+
+        <h2>Atributos não muito utilizados: cols e rows</h2>
+        <textarea name="descricao3" rows="10" cols="40"></textarea>
+        
 
         <input type="submit" value="Fazer Cadastro">
     </form>
