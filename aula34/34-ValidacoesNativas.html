@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Página</title>
-    <link rel="stylesheet" href="33-Fieldset&Legend.css">
+    <link rel="stylesheet" href="34-ValidacoesNativas.css">
 </head>
 <body>
-    <form method="post">
+    <form method="POST" action="teste.php">
         
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label>
                 Primeiro Nome: <br>
-                <input type="text" name="name">
+                <input type="text" name="name" required minlength="2" maxlength="4">
             </label><br>
     
             <label>
                 Sobrenome: <br>
-                <input type="text" name="lastname">
+                <input type="text" name="lastname" required>
             </label><br>
         </fieldset>       
 
