@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página</title>
+    <link rel="stylesheet" href="37-Input-Type-File.css">
+</head>
+<body>
+    <form method="POST" action="teste.php" enctype="multipart/form-data">
+        
+        <input type="hidden" name="country" value="BR">
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome: <br>
+                <input type="text" name="name" required>
+            </label><br>
+    
+            <label>
+                Sobrenome: <br>
+                <input type="text" name="lastname">
+            </label><br>
+
+            <label>
+                Foto: <br>
+                <input type="file" name="photo" accept="image/*">
+            </label><br>
+
+            <label>
+                PDF: <br>
+                <input type="file" name="pdf" accept="application/pdf">
+            </label><br>
+
+        </fieldset>       
+
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa: <br>
+                <input type="text" name="companyname">
+            </label><br>
+    
+            <label>
+                Cargo na empresa: <br>
+                <input type="text" name="companyjobtitle">
+            </label><br>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+    
+    
+</body>
+</html>
