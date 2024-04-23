@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página</title>
+    <link rel="stylesheet" href="35-ValidacoesNativas2.css">
+</head>
+<body>
+    <form method="POST" action="teste.php">
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome: <br>
+                <input type="text" name="name" required>
+            </label><br>
+    
+            <label>
+                Sobrenome: <br>
+                <input type="text" name="lastname">
+            </label><br>
+
+            <label>
+                Email: <br>
+                <input type="text" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="endereço de e-mail" required>
+            </label><br>
+
+            <label>
+                Idade: <br>
+                <!-- <input type="number" name="age" step="3"> -->
+                <input type="number" name="age" min="18" max="120">
+            </label><br>
+
+            <label>
+                Data de nascimento: <br>
+                <input type="date" required>
+            </label>
+        </fieldset>       
+
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa: <br>
+                <input type="text" name="companyname">
+            </label><br>
+    
+            <label>
+                Cargo na empresa: <br>
+                <input type="text" name="companyjobtitle">
+            </label><br>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+    
+    
+</body>
+</html>
