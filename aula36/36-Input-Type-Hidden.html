@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página</title>
+    <link rel="stylesheet" href="36-Input-Type-Hidden.css">
+</head>
+<body>
+    <form method="GET" action="teste.php">
+        
+        <input type="hidden" name="country" value="BR">
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome: <br>
+                <input type="text" name="name" required>
+            </label><br>
+    
+            <label>
+                Sobrenome: <br>
+                <input type="text" name="lastname">
+            </label><br>
+
+        </fieldset>       
+
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa: <br>
+                <input type="text" name="companyname">
+            </label><br>
+    
+            <label>
+                Cargo na empresa: <br>
+                <input type="text" name="companyjobtitle">
+            </label><br>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+    
+    
+</body>
+</html>
