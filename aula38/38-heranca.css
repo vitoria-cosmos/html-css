@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    color: blueviolet;
+}
+
+.container {
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: gray;
+
+    color: red;
+    font-size: 30px;
+    border: 3px solid green;
+}
+
+/* .container strong {
+    color: blue;
+} */
+
+.container strong {
+    border: 3px solid black;
+}
