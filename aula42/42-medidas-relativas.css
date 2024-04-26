@@ -1,0 +1,42 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.box {
+    font-size: 2em; /* 40px porque 1em = 20px */
+}
+
+.box-interno {
+    width: 10em; /* 1em = 40px */
+    height: 10em;
+    background-color: gray;
+}
+
+
+
+body {
+    font-size: 20rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.box {
+    font-size: 2rem; /* 40px porque 1em = 20px */
+}
+
+.box-interno {
+    width: 10rem; /* 1em = 40px */
+    height: 10rem;
+    background-color: gray;
+}
+
