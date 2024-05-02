@@ -1,0 +1,28 @@
+/* {} */
+
+body {
+    margin: 0;
+}
+
+.box {
+    font-size: 15px;
+    color: blue;
+}
+
+h1 {
+    font-size: 30px;
+    color: red;
+}
+
+/* Fazer com que o h1 fora fique do mesmo tamanho 
+da fonte do box */
+
+/* .box h1 {
+    font-size: 15px;
+} */
+
+.box h1 {
+    font-size: inherit;
+    color: inherit;
+}
+
